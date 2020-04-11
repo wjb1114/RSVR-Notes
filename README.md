@@ -1,13 +1,13 @@
 # RSVR-Notes
 
 ## SpatialOS / Photon - Networking options
-### photon is more p2p, matchmaking esque - think Halo or Call Of Duty matches
-### SpatialOS - Full cloud hosting solution with dedicated server, network, and client layers - More closely matches existing OSRS architecture, but may be more expendive in production
+### Photon is more p2p, matchmaking esque - think Halo or Call Of Duty matches
+### SpatialOS - Full cloud hosting solution with dedicated server, network, and client layers - More closely matches existing OSRS architecture, but may be more expensive in production
 	
 ## Tick System
 ### Server ticks act as clock for mechanics - ex. entity spawns, farming growth status
 ### Most interaction is done real time and client side - Movement, combat, skilling interactions
-#### Use server ticks to dictate packet send rates - get player status and send to server every ticks
+#### Use server ticks to dictate packet send rates - get player status and send to server every tick
 		
 ## Engine
 ### Most seem more comfortable with Unity
